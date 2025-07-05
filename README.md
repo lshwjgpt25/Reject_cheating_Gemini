@@ -1,0 +1,2 @@
+# Reject_cheating_Gemini
+使用Gemini防止Telegram群组的挂钩
