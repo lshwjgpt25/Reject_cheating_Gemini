@@ -22,7 +22,9 @@ def main() -> None:
     application.add_handler(CommandHandler("help", bot_logic.help_command))
     application.add_handler(CommandHandler("approvegroup", bot_logic.approve_group))
     application.add_handler(CommandHandler("addadmin", bot_logic.add_admin))
+    application.add_handler(CommandHandler("addsuperadmin", bot_logic.add_super_admin))
     application.add_handler(CommandHandler("setlogchannel", bot_logic.set_log_channel))
+    application.add_handler(CommandHandler("setwarninglimit", bot_logic.set_warning_limit))
 
     # 注册消息处理器
     
